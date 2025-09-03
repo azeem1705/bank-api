@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyyaml = "*"
+requests = "*"
+django-cors-headers = "*"
+python-ulid = "~=3.0.0"
+python-decouple = "~=3.8"
+python-dateutil = "~=2.9.0.post0"
+django = "*"
+djangorestframework = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
